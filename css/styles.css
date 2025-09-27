@@ -45,9 +45,14 @@ h3 {
   color: #404bbf;
 }
 .studio-header {
+  font-weight: 700;
+  font-size: 18px;
   color: #2e2f42;
 }
-
+.webstudio-logo {
+  font-weight: 700;
+  font-size: 18px;
+}
 /* Effective Solutions section */
 .first-section {
   background-color: #2e2f42;
@@ -88,11 +93,15 @@ footer {
   font-weight: 700;
   font-size: 18px;
 }
-.webstudio {
+.webstudio-logo {
   color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
 }
-.studio-footer {
+.logo-part-footer {
   color: #f4f4fd;
+  font-weight: 700;
+  font-size: 18px;
 }
 .link {
   font-size: 12px;
