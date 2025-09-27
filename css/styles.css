@@ -47,15 +47,12 @@ h3 {
 .contacts-item:hover {
   color: #404bbf;
 }
-.studio-header {
+.logo-part-header {
   font-weight: 700;
   font-size: 18px;
   color: #2e2f42;
 }
-.webstudio-logo {
-  font-weight: 700;
-  font-size: 18px;
-}
+
 /* Effective Solutions section */
 .first-section {
   background-color: #2e2f42;
