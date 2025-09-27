@@ -1,0 +1,108 @@
+/* 
+Пропиши стилі для body (font-family, color та background-color)
+Пропиши CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках.
+Для кожного елемента:
+Обираємо елемент, з яким будемо працювати,
+У файлі html додаємо атрибут class з іменем класу,
+У файлі css звертаємося до цього елемента за селектором класу 
+та прописуємо необхідні властивості 
+(колір, властивості шрифта). 
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+/* Header section */
+.nav-item {
+  color: #2e2f42;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #404bbf;
+}
+.contacts {
+  list-style-type: none;
+}
+.contacts-item:hover {
+  color: #404bbf;
+}
+.studio-header {
+  color: #2e2f42;
+}
+.webstudio {
+  font-weight: 700;
+  font-size: 18px;
+}
+/* Effective Solutions section */
+.first-section {
+  background-color: #2e2f42;
+}
+.effective-solutions {
+  color: #ffffff;
+}
+.button-order-service {
+  font-weight: 500;
+  letter-spacing: 4%;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.button-order-service:hover {
+  background-color: #404bbf;
+}
+
+/* About us section */
+
+/* Team section */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+/* Portfolio section */
+
+/* Footer section */
+footer {
+  background-color: #2e2f42;
+}
+.footer-paragraph {
+  color: #f4f4fd;
+}
+.webstudio {
+  color: #4d5ae5;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
+.link {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+}
