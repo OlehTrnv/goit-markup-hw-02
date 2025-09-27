@@ -27,6 +27,7 @@ h1 {
   font-size: 56px;
   letter-spacing: 2%;
   line-height: 60px;
+  text-align: center;
 }
 h2 {
   font-weight: bold;
@@ -57,10 +58,7 @@ h3 {
 .studio-header {
   color: #2e2f42;
 }
-.webstudio {
-  font-weight: 700;
-  font-size: 18px;
-}
+
 /* Effective Solutions section */
 .first-section {
   background-color: #2e2f42;
@@ -87,13 +85,19 @@ h3 {
 }
 
 /* Portfolio section */
-
+.portfolio-item {
+  background-color: #ffffff;
+}
 /* Footer section */
 footer {
   background-color: #2e2f42;
 }
 .footer-paragraph {
   color: #f4f4fd;
+}
+.logo-part-footer {
+  font-weight: 700;
+  font-size: 18px;
 }
 .webstudio {
   color: #4d5ae5;
