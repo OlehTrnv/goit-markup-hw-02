@@ -41,6 +41,9 @@ h3 {
 .contacts {
   list-style-type: none;
 }
+.contacts-item {
+  color: #434455;
+}
 .contacts-item:hover {
   color: #404bbf;
 }
